@@ -1,0 +1,8 @@
+{
+    "default": [
+        {
+            "boards": ["BRD4350A"],
+            "arguments": ["--docker"]
+        }
+    ]
+}

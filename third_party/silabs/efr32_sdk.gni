@@ -1078,6 +1078,7 @@ template("efr32_sdk") {
       sources += [
         "${efr32_sdk_root}/platform/Device/SiliconLabs/MGM26/Source/startup_mgm26.c",
         "${efr32_sdk_root}/platform/Device/SiliconLabs/MGM26/Source/system_mgm26.c",
+        "${efr32_sdk_root}/platform/radio/rail_lib/plugin/fem_util/sl_fem_util.c",
         "${efr32_sdk_root}/platform/service/device_manager/clocks/sl_device_clock_efr32xg26.c",
         "${efr32_sdk_root}/platform/service/device_manager/devices/sl_device_peripheral_hal_efr32xg26.c",
       ]

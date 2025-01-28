@@ -115,6 +115,7 @@ class Efr32Board(Enum):
     BRD4343A = 14
     BRD4342A = 15
     BRD4350A = 16
+    BRD4351A = 16
 
     def GnArgName(self):
         if self == Efr32Board.BRD2704B:

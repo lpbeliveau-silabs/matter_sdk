@@ -123,6 +123,11 @@ extern "C" __attribute__((used)) void debugHardfault(uint32_t * sp)
     configASSERTNULL(NULL);
 }
 
+extern "C" void halInternalAssertFailed(const char * filename, int linenumber)
+{
+    ChipLogError(NotSpecified, "ASSERT: %s:%d", filename, linenumber);
+}
+
 /**
  * Override default hard-fault handler
  */
